@@ -1,0 +1,37 @@
+@import "header.less";
+
+
+
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url(../fonts/AlegreyaSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'Alegreya Sans Light';
+    src: url(../fonts/AlegreyaSans-Light.ttf);
+}
+@font-face {
+    font-family: 'Alegreya Sans Bold';
+    src: url(../fonts/AlegreyaSans-Bold.ttf);
+}
+@font-face {
+    font-family: 'Playfair Display Regular';
+    src: url(../fonts/PlayfairDisplay-Regular.ttf);
+}
+@font-face {
+    font-family: 'Playfair Display Bold';
+    src: url(../fonts/PlayfairDisplay-Bold.ttf);
+}
+@font-face {
+    font-family: 'Proximanova Regular';
+    src: url(../fonts/proximanova-regular-webfont.woff),
+         url(../fonts/proximanova-regular-webfont.woff2);
+}
+@font-face {
+    font-family: 'Scriptina Alt';
+    src: url(../fonts/scriptina_alt-webfont.woff);
+}
+@font-face {
+    font-family: 'Scriptina';
+    src: url(../fonts/scriptina-webfont.woff);
+}

@@ -1,0 +1,74 @@
+@text-col-header: #ffffff;
+@bg-color-header:#56534c;
+.font-size-nav {
+  font-size: 14px;
+}
+.flex-row-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
+
+
+.page-head {
+  color: @text-col-header;
+  padding: 26px 0;
+  background-color: @bg-color-header;
+  opacity: 0.53;
+
+  .wrapper {
+    .flex-row-between;
+    align-items: center;
+
+    .logo {
+      font-size: 30px;
+      letter-spacing: 0.3em;
+      line-height: 16px;
+      a {
+        text-decoration: none;
+        color: @text-col-header;
+        display: inline-block;
+        vertical-align: baseline;
+      }
+    }
+
+    .site-navigation {
+      width: 61.3%;
+
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        .flex-row-between;
+      }
+      a {
+        color: @text-col-header;
+        text-decoration: none;
+        .font-size-nav;
+        text-transform: uppercase;
+      }
+    }
+    .social-networks {
+      .flex-row-between;
+      width: 7.85%;
+      .twitter {
+        background: url("bg-images/logo-twitter.png") center no-repeat;
+        height: 16px;
+        width: 16px;
+      }
+      .facebook {
+        background: url("bg-images/logo-facebook.png") center no-repeat;
+        height: 16px;
+        width: 16px;
+      }
+      .instagram {
+        background: url("bg-images/logo-instagram.png") center no-repeat;
+        height: 16px;
+        width: 16px;
+      }
+    }
+  }
+}
