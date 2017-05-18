@@ -28,8 +28,8 @@
   .flex-row-between;
 
   .cakes-desc {
-    width: 50%;
-    margin: 90px 70px;
+    width: 38%;
+    margin: 90px 5.55vw;
     .flex-column-center;
 
     .name-article{
@@ -52,6 +52,7 @@
       line-height: 1.5rem;
       letter-spacing: 0.025rem;
       text-align: center;
+      margin-top: 55px;
     }
     .title-author {
       color: #56534c;
@@ -59,8 +60,103 @@
       line-height: 1.875rem;
       letter-spacing: 0.1rem;
     }
+    .photo-author {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 15px;
+        .name-cook {
+          font-size: 1.5rem;
+          line-height: 1.875rem;
+          letter-spacing: 0.025rem;
+          padding: 15px 20px;
+          border-top: 1px solid #d7d5ca;
+          border-bottom: 1px solid #d7d5ca;
+        }
+        .img-cook {
+
+        }
+    }
+    .for-bg-quote-author {
+      position: relative;
+      .quote-author {
+        font-size: 1.5rem;
+        line-height: 1.875rem;
+        letter-spacing: 0.025rem;
+        color: #a47d5e;
+        text-align: center;
+        padding: 0 55px;
+        margin: 24px 20px;
+      }
+      .kav-1 {
+        position: absolute;
+        background: url("bg-images/kav-1.png") no-repeat;
+        width: 23px;
+        height: 14px;
+        left: 0;
+        top:0;
+      }
+      .kav-2 {
+        position: absolute;
+        background: url("bg-images/kav-2.png") no-repeat;
+        width: 23px;
+        height: 14px;
+        right: 0;
+        bottom: 0;
+      }
+    }
   }
   .cakes-images{
     width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+      .cakes-images-item-1 {
+        margin: 0 20px 20px 5px;
+        position: relative;
+        img {
+          outline: 5px solid #ffffff; /* рамка */
+          outline-offset: -10px; /* Выводим рамку внутри элемента */
+        }
+        .title-tastes {
+          position: absolute;
+          background: url("bg-images/bg-name-taste.png") no-repeat;
+          height: 247px;
+          width: 247px;
+          bottom: -52%;
+          right: -45%;
+          text-align: center;
+          display: flex; /* Для центрування тексту */
+            span {
+              line-height: 2rem;
+              color: #c9b176;
+              font-size: 30px;
+              text-transform: uppercase;
+              letter-spacing: 0.05rem;
+              margin: auto; /* Для центрування тексту */
+            }
+        }
+      }
+      .cakes-images-item-2 {
+        img {
+          outline: 5px solid #ffffff; /* рамка */
+          outline-offset: -10px; /* Выводим рамку внутри элемента */
+        }
+      }
+      .cakes-images-item-3 {
+        margin: 0 20px 20px 5px;
+        img {
+          outline: 5px solid #ffffff; /* рамка */
+          outline-offset: -10px; /* Выводим рамку внутри элемента */
+        }
+      }
+      .cakes-images-item-4 {
+        img {
+          outline: 5px solid #ffffff; /* рамка */
+          outline-offset: -10px; /* Выводим рамку внутри элемента */
+        }
+      }
   }
 }
