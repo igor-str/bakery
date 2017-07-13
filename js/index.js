@@ -1,3 +1,25 @@
-/**
- * Created by admin on 13.05.2017.
- */
+
+$(document).ready(function(){
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        autoplay:true,
+        autoplayHoverPause:true,
+        responsiveClass:false,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            768:{
+                items:1,
+                nav:true
+            },
+            1170:{
+                items:1,
+                nav:true,
+                loop:true
+            }
+        }
+    });
+});
