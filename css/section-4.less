@@ -1,0 +1,118 @@
+.flex-row-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.bg-for-section-4 {
+  background-image: url("bg-images/bg-section-4.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 760px;
+  width: auto;
+}
+
+.section-4 {
+  .flex-row-between;
+
+  .breakfast-price {
+    width: 50%;
+    .flex-column-center;
+    justify-content: space-around;
+    h2, h3, p {
+      margin: 0;
+    }
+    .breakfast-price-title {
+      color: #ffffff;
+      font-size: 60px;
+      line-height: 30px;
+      letter-spacing: 0;
+      margin-top: 90px;
+    }
+    .price-title-desc {
+      color: #c8a593;
+      font-size: 18px;
+      line-height: 30px;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+    .breakfast-price-item {
+      color: #ffffff;
+      font-size: 30px;
+      line-height: 30px;
+      letter-spacing: 0;
+    }
+    .price-item-desc {
+      color: #c2beba;
+      font-size: 16px;
+      line-height: 30px;
+      letter-spacing: 0;
+    }
+    .dish-price {
+      color: #dfc691;
+      font-size: 36px;
+      line-height: 30px;
+      letter-spacing: 0;
+    }
+  }
+
+  .breakfast-desc {
+    width: 50%;
+    padding-left: 190px;
+    p, h2 {
+      margin: 0;
+    }
+    .flex-column-center;
+    justify-content: space-around;
+    .bg-letter {
+      background-image: url("bg-images/menu.png");
+      background-repeat: no-repeat;
+      background-position: top left;
+      height: 626px;
+      width: auto;
+      margin-top: 90px;
+      margin-right: 95px;
+
+      .head-letter {
+        .flex-row-between;
+        color: #56534c;
+        font-size: 14px;
+        padding: 55px 105px 0 100px;
+      }
+      .letter-name {
+        padding: 130px 55px 0 55px;
+        font-size: 44px;
+        text-align: center;
+        color: #56534c;
+      }
+      .letter-body {
+        padding: 40px 55px 0 55px;
+        font-size: 14px;
+        text-align: center;
+        line-height: 30px;
+        color: #56534c;
+      }
+      .btn-read-more {
+        margin-top: 50px;
+        text-align: center;
+        .view-letter-body-btn {
+          width: 190px;
+          font-size: 18px;
+          text-transform: uppercase;
+          color: #a47d5e;
+          padding: 20px 0;
+          background-color: transparent;
+          border: #9e9c93 1px solid;
+          letter-spacing: 0.1rem;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,152 @@
+.flex-row-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.bg-for-section-5 {
+  background-image: url("bg-images/windmill.png");
+  background-color: #f3f1e9;
+  background-repeat: no-repeat;
+  background-position: center 10px;
+  height: 1015px;
+  width: auto;
+}
+
+
+.section-5 {
+  .flex-column-center;
+
+  .head-section-5 {
+    font-size: 48px;
+    color: #56534c;
+    line-height: 30px;
+    padding-top: 95px;
+    margin: 0;
+  }
+  .desc-section-5 {
+    font-size: 14px;
+    color: #a47d5e;
+    text-transform: uppercase;
+    line-height: 30px;
+    margin: 0;
+    padding-top: 15px;
+  }
+  .wrapper-content-section-5 {
+    .flex-row-between;
+
+    .sandwich-ingredients {
+      .flex-column-center;
+      justify-content: space-between;
+      padding-right: 120px;
+
+      .ingredient-item {
+        .flex-column-center;
+        .ingredient-photo {
+          margin: 55px 0 20px 0;
+        }
+        .ingredient-name {
+          color: #a47d5e;
+          font-size: 30px;
+          line-height: 30px;
+          margin: 0;
+        }
+        .ingredient-desc {
+          color: #56534c;
+          font-size: 14px;
+          line-height: 20px;
+          margin: 0;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .sandwich-img {
+    position: relative;
+    margin-top: 100px;
+    .sandwich-big-photo {
+      outline: 10px solid #ffffff;
+      outline-offset: -10px;
+    }
+
+    .wrapper-for-info-sandwich {
+      .flex-column-center;
+      position: absolute;
+      top: -25px;
+      right: 0;
+      .info-cook {
+        .flex-column-center;
+        align-content: space-around;
+        padding: 45px 0 45px 0;
+        background: #ffffff;
+        opacity: 0.8;
+        width: 200px;
+        height: 110px;
+        margin: 1px 0 1px 0;
+        .info-cook-title {
+          color: #a47d5e;
+          font-size: 18px;
+          line-height: 30px;
+          text-transform: uppercase;
+        }
+        .info-cook-time {
+          color: #56534c;
+          font-size: 60px;
+          line-height: 60px;
+        }
+        .info-cook-units {
+          color: #979285;
+          font-size: 18px;
+          line-height: 30px;
+        }
+      }
+      .timer-to-ready {
+        .flex-column-center;
+        justify-content: space-around;
+        background-image: url("bg-images/bg-timer-to-ready.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 200px;
+        width: 200px;
+        line-height: 1.875rem;
+        .timer-name {
+          text-transform: uppercase;
+          font-size: 1.125rem;
+          color: #a47d5e;
+        }
+        .timer-time {
+          font-size: 5.75rem;
+          color: #dfc691;
+        }
+        .timer-unit {
+          font-size: 1.125rem;
+          color: #979285;
+        }
+      }
+    }
+
+    .wrapper-btn {
+      position: absolute;
+      left: -20px;
+      top: 510px;
+      //text-align: center;
+      .full-recipe-btn {
+        width: 170px;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #dfc691;
+        padding: 20px 0;
+        background-color: #ffffff;
+        border: #dfc691 1px dashed;
+      }
+    }
+  }
+}
